@@ -2,11 +2,7 @@
 
 ## :receipt: Generalities 
 
-Business webpage is a product of the HTML, CSS and javascript modules of my frontend postgraduate degree at Universidad la Salle BCN. 
-
-Interactions implemented to highlight on the web: show the weather of your location in real time, set of countries and continents, infinite scroll to load Rick and Morty characters and keyboard shortcuts to navigate.
-
-Additionally, with the prior knowledge of my team we have developed an API, which is consumed through the form, so that when the user 'contacts' on the website, they receive a confirmation email and we also receive an alert email.
+This is an application for you to have fun searching for gifs. The gifs are saved during your browsing so you can compare searches 😉
 
 ## :arrow_forward: Demo
 
@@ -16,35 +12,31 @@ Additionally, with the prior knowledge of my team we have developed an API, whic
 
 ### Technologies used
 
-- HTML5
-- CSS3 - Boosttrap - SweetAlert2
-- JavaScript - Fetch API
-- Express.js
-- TypeScript
+- React
+- Vite
+- CSS3 - Bootstrap
 
 ### Install
-> If you want to deploy this project on your localhost, run the following commands in your terminal,
+> If you want to deploy this project on your localhost, run the following commands in your terminal, but first make sure you have node and npm installed.
 
 - Clone repository
   
-  `git clone https://github.com/TinaAlzate/business-webpage`
+  `git clone https://github.com/TinaAlzate/gif-expert-app.git`
 
 - Enter the project directory
 
-  `cd business-webpage`
+  `cd gif-expert-app`
   
-- Open your code editor
+- Install dependencies
 
-- Deploy to localhost: Install extension
-  
-  [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+  `npm install`
+
+- Execute the developer enviroment
+
+  `npm run dev`
 
  ## :card_file_box: API
 
-> [Send email](https://github.com/jarestrepot/servidorSalleForm)
+> [GIPHY](https://giphy.com/)
 
-> [Rick and Morty API](https://rickandmortyapi.com)
 
-> [countries.trevorblades - GraphQL](https://countries.trevorblades.com/)
-
-> [Tomorrow.io](https://api.tomorrow.io/v4/weather/forecast)
