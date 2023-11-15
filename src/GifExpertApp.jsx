@@ -3,7 +3,7 @@ import {AddCategory, GifGrid } from "./components"
 
 export const GifExpertApp = () => {
   
-    const [ categories, setCategories ] = useState([ 'One Punch' ]);
+    const [ categories, setCategories ] = useState([ 'Developer' ]);
 
     const onAddCategory = (newCategory) => {
       const categoriesLowerCase = categories.map(category => category.toLowerCase());
@@ -14,7 +14,7 @@ export const GifExpertApp = () => {
   return (
     <>
 
-      <h1>GifExpertApp</h1>
+      <h1>Gif Expert App</h1>
 
       <AddCategory  
         onNewCategory={ onAddCategory } />
