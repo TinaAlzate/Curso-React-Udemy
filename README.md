@@ -6,7 +6,7 @@ This is an application for you to have fun searching for gifs. The gifs are save
 
 ## :arrow_forward: Demo
 
-> You can try our app, [here](https://giphys-expert-application.netlify.app/)
+> You can try our app, [here](https://giphyexpert.netlify.app/)
 
 ## :technologist: Guide for developer
 
